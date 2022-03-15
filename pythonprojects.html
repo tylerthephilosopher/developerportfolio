@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+<title> Data Analytics Portfolio </title>
+</head>
+<body>
+<header>
+<ul>
+<a href="homepage.html">
+  <li> About Me</li>
+</a>
+<a href="excelprojects.html">
+<li>Excel Projects</li>
+</a>
+  <li class="logo">Data Analytics Portfolio</li>
+<a href="pythonprojects.html">
+  <li> Python Projects </li>
+</a>
+<a href="sqlprojects.html">
+  <li> SQL Projects </li>
+</a>
+  </ul>
+</header>
+<h1>Number guessing game</h1>
+<p>The first project I worked on is a simple guess the number game between 1 and 10.  </p>
+<p> we start off with a variable to hold the guess. Then we do a while loop and if-then statements within the while loop. We must do this as it has to loop through all possible conditions </p>
+<p>The goal is if the person guesses wrong it should continue to ask the user to keep guessing until the answer is achieved.</p>
+<img src="guessinggame.png">
+<p>Below is the input once the python program has been run. When the user enters a number that is too low, it outputs to the user it is too low,
+  same with if the number is too high. And finally once the correct answer is chosen, the program ends with "well done" </p>
+
+<img src="numguessconsole.png">
+<hr>
+<h1>Cleaning Data </h1>
+<p>Anytime you get data you must see what data types the data is stored as as well as any missing values, as missing values can result in an incorrect analysis</p>
+<p> 1. (lines 1-3) First step is importing numpy, matplotlib and pandas</p>
+<p> 2. (line 5) We need to read our data, it is stored as a csv file.</p>
+<p> 3. (line 6) Now that we have the csv file read, its useful to see what data types we are working with</p>
+<p> 4. (line 7) And finally we can see if there are any null values </p>
+<img src="python1.png">
+<p> Below is the output for the above code. It tells us a few facts </p>
+<p> 1. There is a total of 8 columns </p>
+<p> 2. 5 columns are object data types, 3 are int64 </p>
+<p> In this situation there are no null values, if there were our first info about our data would tell us what column has null values</p>
+<p> The isnull tells us strictly how many values are null </p>
+<img src="python2.png">
+<hr>
+<h1> Plotting with NumPy and Matplotlib </h1>
+<p> The first step we need to do is import numpy as well as matplotlib. Then we need to create
+    two variables to plot on our graph. Year and grade_avg will represent our x and y variables.
+</p>
+<img src="codesnip.png">
+<p> Our next figure shows us the output from the above code. In the next section we will
+    continue to add labels as well as dots and font/color changes.
+</p>
+<img src="Figure_1.png">
+<p>Now we have to add some more code to show labels that have fonts and color added
+</p>
+<img src="codesnip1.png">
+<p>
+The figure below is the output from the above code
+</p>
+<img src="Figure_2.png">
+<hr>
+<h1>Using Tkinter to create input system for school</h1>
+<img src="tkinter1.png">
+<p>first we import tkinter then name the program as well as give it a title</p>
+<p>the function get_results() is what i did last. first we must create the layout of the program</p>
+<img src="tkinter2.png">
+<p>L1 - L6 are labels for the GUI, and E1-E6 are the entries where the user can input the data</p>
+<img src="tkintergui1.png">
+<p>This is what the gui looks like </p>
+<img src="tkinter3.png">
+<p>Finally we go back to our function get_results() in order to actually save data to a txt file</p>
+</body>
+</html>

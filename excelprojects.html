@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+<title> Data Analytics Portfolio </title>
+</head>
+<body>
+<header>
+<ul>
+<a href="homepage.html">
+  <li> About Me</li>
+</a>
+<a href="excelprojects.html">
+  <li>Excel Projects</li>
+</a>
+
+<li class="logo">Data Analytics Portfolio</li>
+<a href="pythonprojects.html">
+  <li> Python Projects </li>
+</a>
+<a href="sqlprojects.html">
+  <li> SQL Projects </li>
+</a>
+  </ul>
+</header>
+<h1> Sales Dashboard </h1>
+<p> Sample sales dashboard from a sample dataset I found online. I will show my process from start to end.
+  First step is to get the data we are trying to analyse. Once data is collected we open it up in excel.
+  Once in excel , it is best advised to open in power query to check all columns and make sure the proper values for each column, as well as find any missing data and how to fix it.
+  This example unfortunately has all the data so we do not need to change anything.
+</p>
+<img src="sampledata.png">
+<p>
+Now that we have some data to work with the next part is to start a new page to use as our dashboard.
+</p>
+<h1> Sales by Productline</h1>
+<p>
+  Our first pivottable is total sales by productline. An easy visual for this information is to use a bar graph.
+</p>
+<img src="pivottable1.png">
+<h1> Sales by Top 5 Countries</h1>
+<p>
+The second pivot table is top 5 performing countries, using the value filter. This allows us to see the top five from all of the countries.
+</p>
+<img src="pivottable2.png">
+<h1> Map of all sales </h1>
+<p>
+  The third pivot table is a map of all of the sales, to be able to get data to display a map, I neeeded to put the data outside the pivot table. Once outside you need enough information to be able
+  to accurately depict the information. We need the two fields, country and state or city, to narrow down the options.
+</p>
+<img src="pivottable3.png">
+<h1>Final Product </h1>
+<p>And finally after all of our pivot tables to graphs, we can copy and paste the graphs to our dashboard</p>
+<img src="salesdashboard1.png">
+<img src="salesdashboard2.png">
+
+</body>
+</html>

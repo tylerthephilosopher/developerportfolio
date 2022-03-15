@@ -1,0 +1,18 @@
+in this project i will be creating a fake example company
+
+the company sells products, so i will need to make a program that records sales
+product identification, price, quantity etc. side application that when quanitites get low
+to reorder more. (as400 type)
+1. record sales/ order sales
+2. analyse data/ tables etc
+
+2 projects
+1: 
+-html/css/js site(customer fills form or buys etc) --> 
+-sql server database(php)
+-from that database you can access data using excel (analyze)-->
+- python (app) get data from database/manipulate
+-
+2: python app to input data -->
+-connected to sql database -->
+- which can then be used with excel to analyze results
